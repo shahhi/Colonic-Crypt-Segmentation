@@ -6,6 +6,7 @@ Dataset source: https://drive.google.com/drive/folders/1m-rYzhWbabhVBEMbClq6fRoO
 ## Data Preprocessing
 
 <img src="Images/Sample_Image.png" width="220px">
+<img src="Images/Sample_Mask.png" width="220px">
 
 ## Architecture
 
