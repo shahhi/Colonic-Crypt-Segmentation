@@ -5,7 +5,7 @@ Dataset source: https://drive.google.com/drive/folders/1m-rYzhWbabhVBEMbClq6fRoO
 
 ## Data Preprocessing
 
-<img src="part1-images/bigben_14.jpg" width="220px">
+<img src="Images/Sample_Image.jpg" width="220px">
 
 ## Architecture
 
