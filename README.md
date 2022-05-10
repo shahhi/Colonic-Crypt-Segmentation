@@ -6,7 +6,7 @@ Trained a segmentation model UNet using Pytorch to segment the colonic crypts in
 
 ## Data Preprocessing
 
-<img src="Images/Sample_Image.png" width="520px" align= "center">
+<center><img src="Images/Sample_Image.png" width="520px"></center>
 <img src="Images/Sample_Mask.png" width="520px">
 
 ## Architecture
