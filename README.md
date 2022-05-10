@@ -63,8 +63,33 @@ import albumentations as A
 BATCH_SIZE = 32
 INPUT_CHANNELS = 3
 INPUT_SHAPE = (512,512,3)
-PATIENCE = 5
+PATIENCE = 5 # Implemented early stopping
 EPOCHS = 50
+KFOLD = 2 # KFold cross validation
+LOSS = Cross Entropy Loss
+DICE LOSS
+DICE SCORE
+```
+```bash
+train_transform =  A.Compose([
+            A.HorizontalFlip(),
+            A.VerticalFlip(),
+            A.RandomRotate90(),
+            A.OneOf([
+                A.ElasticTransform(p=.3),
+                A.GaussianBlur(p=.3),
+                A.GaussNoise(p=.3),
+                A.OpticalDistortion(p=0.3),
+                A.GridDistortion(p=.1),
+                A.PiecewiseAffine(p=0.3),
+            ], p=0.3),
+            A.OneOf([
+                A.HueSaturationValue(15,25,0),
+                A.CLAHE(clip_limit=2),
+                A.RandomBrightnessContrast(brightness_limit=0.3, contrast_limit=0.3),
+            ], p=0.3),
+
+        ])
 ```
 
 ## Inference
