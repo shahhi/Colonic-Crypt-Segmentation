@@ -31,18 +31,18 @@ The position and shape of a crypt is represented by a set of pixel coordinates t
 ```bash
 # Dice score for test set
             Image                          Score
-1 CL_HandE_1234_B004_bottomleft	       0.8751588501232356
-2 HandE_B005_CL_b_RGB_bottomleft	0.7151214544866026
+1 CL_HandE_1234_B004_bottomleft     0.8751588501232356
+2 HandE_B005_CL_b_RGB_bottomleft    0.7151214544866026
 
 Average	0.7951401523049191
 ```
 ```bash
-                Image                   Score
+            Image                          Score
 1 CL_HandE_1234_B004_bottomright	0.7902297684303141
-2 CL_HandE_1234_B004_topleft	0.8143473842064496
-3 CL_HandE_1234_B004_topright	0.8089536289263017
+2 CL_HandE_1234_B004_topleft	    0.8143473842064496
+3 CL_HandE_1234_B004_topright	    0.8089536289263017
 4 HandE_B005_CL_b_RGB_bottomright	0.8302962795308487
-5 HandE_B005_CL_b_RGB_topleft	0.8790617750363643
+5 HandE_B005_CL_b_RGB_topleft	    0.8790617750363643
 
 Average	0.8245777672260557
 ```
