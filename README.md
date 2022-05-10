@@ -52,7 +52,9 @@ Average	0.8245777672260557
 
 ### PCA
 
+<p align="center">
 <img src="Images/PCA.jpg" width="520px">
+</p>
 <table>
 <tr>
     <td><img src="Images/TrainsetPCA.jpg" width="520px"></td>
@@ -61,7 +63,10 @@ Average	0.8245777672260557
 </table>
 
 ### T-SNE
+
+<p align="center">
 <img src="Images/TSNE.jpg" width="520px">
+</p>
 <table>
 <tr>
     <td><img src="Images/TrainsetTSNE.jpg" width="520px"></td>
@@ -70,8 +75,10 @@ Average	0.8245777672260557
 </table>
     
 ### UMAP
-    
+
+<p align="center">
 <img src="Images/UMAP.jpg" width="520px">
+</p>
 <table>
 <tr>
     <td><img src="Images/TrainsetUMAP.jpg" width="520px"></td>
@@ -81,7 +88,9 @@ Average	0.8245777672260557
 
 ### MDS
 
+<p align="center">
 <img src="Images/MDS.jpg" width="520px">
+</p>
 <table>
 <tr>
     <td><img src="Images/TrainsetMDS.jpg" width="520px"></td>
@@ -92,6 +101,7 @@ Average	0.8245777672260557
 
 ## Insights
 
+<p align="center">
 <img src="Images/Failedcase1.png" width="520px">
 
 <img src="Images/Failedcase2.png" width="520px">
@@ -99,14 +109,19 @@ Average	0.8245777672260557
 <img src="Images/Failedcase3.png" width="520px">
 
 <img src="Images/Failedcase3.png" width="520px">
+    
+</p>
  
 ## Conclusion
 
+<p align="center">
 <img src="Images/newplot.png" width="520px">
 
 <img src="Images/newplot2.png" width="520px">
 
 <img src="Images/newplot5.png" width="520px">
+    
+</p>
 
 ## References
 
