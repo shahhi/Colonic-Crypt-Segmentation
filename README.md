@@ -24,9 +24,9 @@ Dataset source: https://drive.google.com/drive/folders/1m-rYzhWbabhVBEMbClq6fRoO
 <img src="Images/TestsetPCA.jpg" width="520px">
 
 ### T-SNE
-<img src="Images/TSNE.png" width="520px">
-<img src="Images/TrainsetTSNE.png" width="520px">
-<img src="Images/TestsetTSNE.png" width="520px">
+<img src="Images/TSNE.jpg" width="520px">
+<img src="Images/TrainsetTSNE.jpg" width="520px">
+<img src="Images/TestsetTSNE.jpg" width="520px">
 
 ### UMAP
 <img src="Images/UMAP.jpg" width="520px">
