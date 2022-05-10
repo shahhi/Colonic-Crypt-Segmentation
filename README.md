@@ -10,6 +10,7 @@ The position and shape of a crypt is represented by a set of pixel coordinates t
 
 
 ## Data Preprocessing
+
 <table>
 <tr>
     <td><img src="Images/Sample_Image.png" width="520px"></td>
@@ -18,6 +19,21 @@ The position and shape of a crypt is represented by a set of pixel coordinates t
 </tr>
 </table>
 
+```bash
+def extract_patches
+    """
+    This Method creates a .csv to containing image and mask paths
+    
+    args:
+    df_train = dataframe containing image Ids and RLE annotations
+    image_data_dir  = Path to the train image folder
+    mask_data_dir  = Path to the train mask folder
+    train_patches_directory = Path to the folder where we want to save the patches
+    patch_size = patch size
+    
+    Returns: None
+    """
+```
 
 
 ## Architecture
@@ -127,7 +143,7 @@ Average	0.8245777672260557
 
 [1] https://github.com/cns-iu/ccf-research-kaggle-2021
 
-[2] https://github.com/j-sripad/Roof_segmentation (Few part are adapted from my Computer Vision Final Project)
+[2] https://github.com/j-sripad/Roof_segmentation (Few parts are adapted from my Computer Vision Final Project)
 
 ## Paper 1: Summary
 source: https://www.nature.com/articles/s41592-019-0403-1
