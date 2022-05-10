@@ -22,14 +22,17 @@ Dataset source: https://drive.google.com/drive/folders/1m-rYzhWbabhVBEMbClq6fRoO
 <img src="Images/PCA.jpg" width="520px">
 <img src="Images/TrainsetPCA.jpg" width="520px">
 <img src="Images/TestsetPCA.jpg" width="520px">
+
 ### T-SNE
 <img src="Images/TSNE.png" width="520px">
 <img src="Images/TrainsetTSNE.png" width="520px">
 <img src="Images/TestsetTSNE.png" width="520px">
+
 ### UMAP
 <img src="Images/UMAP.jpg" width="520px">
 <img src="Images/TrainsetUMAP.jpg" width="520px">
 <img src="Images/TestsetUMAP.jpg" width="520px">
+
 ### MDS
 <img src="Images/MDS.jpg" width="520px">
 <img src="Images/TrainsetMDS.jpg" width="520px">
