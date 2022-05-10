@@ -43,8 +43,9 @@ def extract_patches
 
 ## Architecture
 
+MODEL USED: UNET with EFFICIENTNET-B2 as ENCODER trained on IMAGENET dataset
+
 <p align="center">
-    MODEL USED: UNET with EFFICIENTNET-B2 as ENCODER trained on IMAGENET dataset
     
     
 <img src="https://www.mdpi.com/sensors/sensors-22-00867/article_deploy/html/images/sensors-22-00867-g004.png"  width="520px">
