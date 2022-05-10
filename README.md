@@ -21,8 +21,9 @@ The position and shape of a crypt is represented by a set of pixel coordinates t
 
 
 ## Architecture
+<p align="center">
 <img src="https://www.mdpi.com/sensors/sensors-22-00867/article_deploy/html/images/sensors-22-00867-g004.png"  width="520px">
-
+</p>
 
 ## Training
 
