@@ -19,7 +19,10 @@ The position and shape of a crypt is represented by a set of pixel coordinates t
 </tr>
 </table>
 
+Due to large size (4536 x 4704 x 3) of image to save computational power decided to generate patch sizes of 512 x 512. Saved the path of each patch, path to its mask and annoted class (1 crypt 0 background) in a train_data.csv file for easy access.
+
 ```bash
+# Used to extract patches of size = (512, 512) with no overlapping starting from left top as well as right bottom
 def extract_patches
     """
     This Method creates a .csv to containing image and mask paths
