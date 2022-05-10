@@ -1,0 +1,9 @@
+image_file,width_pixels,height_pixels,crypt_segmentation_file,patient_number,race,sex,age,bmi_kg/m^2
+CL_HandE_1234_B004_bottomleft,4704,4536,CL_HandE_1234_B004_bottomleft.json,B004,Black or African American,Male,78,35.08
+CL_HandE_1234_B004_bottomright,4704,4536,CL_HandE_1234_B004_bottomright.json,B004,Black or African American,Male,78,35.08
+CL_HandE_1234_B004_topleft,4704,4536,CL_HandE_1234_B004_topleft.json,B004,Black or African American,Male,78,35.08
+CL_HandE_1234_B004_topright,4704,4536,CL_HandE_1234_B004_topright.json,B004,Black or African American,Male,78,35.08
+HandE_B005_CL_b_RGB_bottomleft,4704,4536,HandE_B005_CL_b_RGB_bottomleft.json,B005,White,Female,24,23.24
+HandE_B005_CL_b_RGB_bottomright,4704,4536,HandE_B005_CL_b_RGB_bottomright.json,B005,White,Female,24,23.24
+HandE_B005_CL_b_RGB_topleft,4704,4536,HandE_B005_CL_b_RGB_topleft.json,B005,White,Female,24,23.24
+HandE_B005_CL_b_RGB_topright,4704,4536,HandE_B005_CL_b_RGB_topright.json,B005,White,Female,24,23.24
