@@ -43,6 +43,8 @@ Trained a segmentation model UNet using Pytorch to segment the colonic crypts in
 
 ## Insights
 
+### 
+
 ## Conclusion
 
 ## References
