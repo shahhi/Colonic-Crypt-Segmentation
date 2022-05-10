@@ -201,6 +201,9 @@ Annoted class:
 
 ## Insights
 
+Following are a few out put overlays from the above used model. On the left side (with red outline) shows ground truth mask overlay and on the right side (with green outline) shows predicted mask overlay.  
+
+
 <p align="center">
     
 <img src="Images/Failedcase1.png" width="520px">
@@ -212,10 +215,10 @@ Annoted class:
 
     
 </p>
+
+From Example 1, I think the model failed to predicted the crypt with no dark boundary. This could be due to lack of representation of such type of crysts. More representation of cryst in the data should improve the results. Moreover, more experiments in choosing the size of patch generated can be done in future.
  
 ## Conclusion
-
-Following are a few out put overlays from the above used model. On the left side (with red outline) shows ground truth mask overlay and on the right side (with green outline) shows predicted mask overlay.  
 
 <p align="center">
     
@@ -233,7 +236,6 @@ Following are a few out put overlays from the above used model. On the left side
     
 </p>
 
-From Example 1, I think the model failed to predicted the crypt with no dark boundary. This could be due to lack of representation of such type of crysts. More representation of cryst in the data should improve the results. Moreover, more experiments in choosing the size of patch generated can be done in future.
 
 ## References
 
