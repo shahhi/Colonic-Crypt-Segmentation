@@ -2,7 +2,7 @@
 
 Trained a segmentation model UNet using Pytorch to segment the colonic crypts in the tissue images. 
 
-###### Dataset source: https://drive.google.com/drive/folders/1m-rYzhWbabhVBEMbClq6fRoOpLUgpFnx?usp=sharing
+#### Dataset source: https://drive.google.com/drive/folders/1m-rYzhWbabhVBEMbClq6fRoOpLUgpFnx?usp=sharing
 
 The colon dataset consists of 6 .tiff whole slide images (WSIs) and their GeoJSON annotations of colonic crypts. Each image is from a hematoxylin and eosin (H&E) stained coverslip from different regions of the colon (ascending, transverse, descending, and descending sigmoid). Hematoxylin and eosin stains nucleic acids deep blue-purple and nonspecific proteins varying degrees of pink, respectively. The WSIs were annotated by a pathologist using QuPath, and the resulting annotations were exported to GeoJSON format.
 
@@ -19,7 +19,9 @@ The position and shape of a crypt is represented by a set of pixel coordinates t
 </tr>
 </table>
 
+
 Due to large size (4536 x 4704 x 3) of image to save computational power decided to generate patch sizes of 512 x 512. Saved the path of each patch, path to its mask and annoted class (1 crypt 0 background) in a train_data.csv file for easy access.
+
 
 ```bash
 # Used to extract patches of size = (512, 512) with no overlapping starting from left top as well as right bottom
@@ -40,13 +42,34 @@ def extract_patches
 
 
 ## Architecture
+
 <p align="center">
+    MODEL USED: UNET with EFFICIENTNET-B2 as ENCODER trained on IMAGENET dataset
 <img src="https://www.mdpi.com/sensors/sensors-22-00867/article_deploy/html/images/sensors-22-00867-g004.png"  width="520px">
 </p>
 
 ## Training
 
+```bash
+# imported to use UNET architecture with encoder pretrained 
+import segmentation_models_pytorch as sm
+# imported to use Ranger(Adam + LookAhead) as an optimizer
+import torch_optimizer as t_optim
+# imported for data augmentation
+import albumentations as A
+```
+
+```bash
+BATCH_SIZE = 32
+INPUT_CHANNELS = 3
+INPUT_SHAPE = (512,512,3)
+PATIENCE = 5
+EPOCHS = 50
+```
+
 ## Inference
+
+*
 
 ```bash
 # Dice score for test set
@@ -146,10 +169,11 @@ Average	0.8245777672260557
 
 [1] https://github.com/cns-iu/ccf-research-kaggle-2021
 
-[2] https://github.com/j-sripad/Roof_segmentation (Few parts are adapted from my Computer Vision Final Project)
+[2] https://lessw.medium.com/new-deep-learning-optimizer-ranger-synergistic-combination-of-radam-lookahead-for-the-best-of-2dc83f79a48d
+
+[3] https://github.com/j-sripad/Roof_segmentation (Few parts are adapted from my Computer Vision Final Project)
 
 ## Paper 1: Summary
 source: https://www.nature.com/articles/s41592-019-0403-1
 
-## Paper 2: Summary
-source: https://distill.pub/2019/activation-atlas/
+
