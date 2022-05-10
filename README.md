@@ -52,10 +52,9 @@ Trained a segmentation model UNet using Pytorch to segment the colonic crypts in
 ## Conclusion
 
 <img src="Images/newplot.png" width="520px">
-<img src="Images/newplot1.png" width="520px">
+
 <img src="Images/newplot2.png" width="520px">
-<img src="Images/newplot3.png" width="520px">
-<img src="Images/newplot4.png" width="520px">
+
 <img src="Images/newplot5.png" width="520px">
 
 ## References
