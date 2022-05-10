@@ -9,7 +9,7 @@ Dataset source: https://drive.google.com/drive/folders/1m-rYzhWbabhVBEMbClq6fRoO
 <img src="Images/Sample_Mask.png" width="220px">
 
 ## Architecture
-
+<img src="https://www.mdpi.com/sensors/sensors-22-00867/article_deploy/html/images/sensors-22-00867-g004.png"  width="220px">
 ## Training
 
 ## Inference
