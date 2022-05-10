@@ -198,13 +198,14 @@ Average	0.8245777672260557
 ## Insights
 
 <p align="center">
+    
 <img src="Images/Failedcase1.png" width="520px">
 
 <img src="Images/Failedcase2.png" width="520px">
  
 <img src="Images/Failedcase3.png" width="520px">
 
-<img src="Images/Failedcase4.png" width="520px">
+
     
 </p>
  
