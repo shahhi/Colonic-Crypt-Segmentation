@@ -6,7 +6,7 @@ Trained a segmentation model UNet using Pytorch to segment the colonic crypts in
 
 ## Data Preprocessing
 
-<center><img src="Images/Sample_Image.png" width="520px"></center>
+<img src="Images/Sample_Image.png" width="520px">
 <img src="Images/Sample_Mask.png" width="520px">
 
 ## Architecture
@@ -35,11 +35,15 @@ Trained a segmentation model UNet using Pytorch to segment the colonic crypts in
 <img src="Images/TestsetUMAP.jpg" width="520px">
 
 ### MDS
+
 <img src="Images/MDS.jpg" width="520px">
-<img src="Images/TrainsetMDS.jpg" width="520px">
-<img src="Images/TestsetMDS.jpg" width="520px">
-
-
+<table>
+<tr>
+    <td><img src="Images/TrainsetMDS.jpg" width="520px"></td>
+    <td><img src="Images/TestsetMDS.jpg" width="520px"></td>
+    
+</tr>
+</table>
 
 ## Insights
 
