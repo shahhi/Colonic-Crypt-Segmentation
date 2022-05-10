@@ -5,9 +5,15 @@ Trained a segmentation model UNet using Pytorch to segment the colonic crypts in
 ###### Dataset source: https://drive.google.com/drive/folders/1m-rYzhWbabhVBEMbClq6fRoOpLUgpFnx?usp=sharing
 
 ## Data Preprocessing
+<table>
+<tr>
+    <td><img src="Images/Sample_Image.png" width="520px"></td>
+    <td><img src="Images/Sample_Mask.png" width="520px"></td>
+    
+</tr>
+</table>
 
-<img src="Images/Sample_Image.png" width="520px">
-<img src="Images/Sample_Mask.png" width="520px">
+
 
 ## Architecture
 <img src="https://www.mdpi.com/sensors/sensors-22-00867/article_deploy/html/images/sensors-22-00867-g004.png"  width="520px">
@@ -20,19 +26,33 @@ Trained a segmentation model UNet using Pytorch to segment the colonic crypts in
 ## Data Visualization
 
 ### PCA
+
 <img src="Images/PCA.jpg" width="520px">
-<img src="Images/TrainsetPCA.jpg" width="520px">
-<img src="Images/TestsetPCA.jpg" width="520px">
+<table>
+<tr>
+    <td><img src="Images/TrainsetPCA.jpg" width="520px"></td>
+    <td><img src="Images/TestsetPCA.jpg" width="520px"></td>
+</tr>
+</table>
 
 ### T-SNE
 <img src="Images/TSNE.jpg" width="520px">
-<img src="Images/TrainsetTSNE.jpg" width="520px">
-<img src="Images/TestsetTSNE.jpg" width="520px">
-
+<table>
+<tr>
+    <td><img src="Images/TrainsetTSNE.jpg" width="520px"></td>
+    <td><img src="Images/TestsetTSNE.jpg" width="520px"></td>
+</tr>
+</table>
+    
 ### UMAP
+    
 <img src="Images/UMAP.jpg" width="520px">
-<img src="Images/TrainsetUMAP.jpg" width="520px">
-<img src="Images/TestsetUMAP.jpg" width="520px">
+<table>
+<tr>
+    <td><img src="Images/TrainsetUMAP.jpg" width="520px"></td>
+    <td><img src="Images/TestsetUMAP.jpg" width="520px"></td>
+</tr>
+</table>
 
 ### MDS
 
@@ -48,9 +68,11 @@ Trained a segmentation model UNet using Pytorch to segment the colonic crypts in
 ## Insights
 
 <img src="Images/Failedcase1.png" width="520px">
+
 <img src="Images/Failedcase2.png" width="520px">
  
 <img src="Images/Failedcase3.png" width="520px">
+
 <img src="Images/Failedcase3.png" width="520px">
  
 ## Conclusion
