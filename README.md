@@ -127,7 +127,7 @@ Average	0.8245777672260557
 
 [1] https://github.com/cns-iu/ccf-research-kaggle-2021
 
-[2] 
+[2] https://github.com/j-sripad/Roof_segmentation (Few part are adapted from my Computer Vision Final Project)
 
 ## Paper 1: Summary
 source: https://www.nature.com/articles/s41592-019-0403-1
