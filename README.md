@@ -28,6 +28,12 @@ The position and shape of a crypt is represented by a set of pixel coordinates t
 
 ## Inference
 
+```bash
+Dice score for test set
+1 CL_HandE_1234_B004_bottomleft	    0.8751588501232356
+2 HandE_B005_CL_b_RGB_bottomleft	0.7151214544866026
+Average	0.7951401523049191
+```
 ## Data Visualization
 
 ### PCA
