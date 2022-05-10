@@ -146,6 +146,10 @@ Average	0.8245777672260557
 ```
 ## Data Visualization
 
+Annoted class:
+1 - crypt 
+0 - background
+
 ### PCA
 
 <p align="center">
