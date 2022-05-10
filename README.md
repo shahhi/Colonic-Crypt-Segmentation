@@ -45,6 +45,8 @@ def extract_patches
 
 <p align="center">
     MODEL USED: UNET with EFFICIENTNET-B2 as ENCODER trained on IMAGENET dataset
+    
+    
 <img src="https://www.mdpi.com/sensors/sensors-22-00867/article_deploy/html/images/sensors-22-00867-g004.png"  width="520px">
 </p>
 
@@ -94,6 +96,32 @@ train_transform =  A.Compose([
 
 ## Inference
 
+```bash
+def rle_encode(img):
+    #cite = https://www.kaggle.com/lifa08/run-length-encode-and-decode
+    '''
+    img: numpy array, 1 - mask, 0 - background
+    Returns run length as string formated
+    '''
+    pixels = img.T.flatten()
+    pixels = np.concatenate([[0], pixels, [0]])
+    runs = np.where(pixels[1:] != pixels[:-1])[0] + 1
+    runs[1::2] -= runs[::2]
+    return ' '.join(str(x) for x in runs)
+
+def dice_score(y_pred, y_true, eps=1e-8):
+    """
+    calculate dicescore
+    """
+    y_pred = y_pred.ravel()>0
+    y_true = y_true.ravel()>0
+    
+    intersection = np.sum(y_pred * y_true)
+    union = np.sum(y_pred) + np.sum(y_true)
+
+    dice = (2.0 * intersection + eps) / (union + eps)
+    return dice
+```
 *
 
 ```bash
