@@ -18,6 +18,24 @@ Dataset source: https://drive.google.com/drive/folders/1m-rYzhWbabhVBEMbClq6fRoO
 
 ## Data Visualization
 
+### PCA
+<img src="Images/PCA.jpg" width="520px">
+<img src="Images/Sample_Image.jpg" width="520px">
+<img src="Images/Sample_Image.jpg" width="520px">
+### T-SNE
+<img src="Images/TSNE.png" width="520px">
+<img src="Images/Sample_Image.jpg" width="520px">
+<img src="Images/Sample_Image.jpg" width="520px">
+### UMAP
+<img src="Images/UMAP.jpg" width="520px">
+<img src="Images/Sample_Image.jpg" width="520px">
+<img src="Images/Sample_Image.jpg" width="520px">
+### MDS
+<img src="Images/MDS.jpg" width="520px">
+<img src="Images/Sample_Image.jpg" width="520px">
+<img src="Images/Sample_Image.jpg" width="520px">
+
+
 ## Insights
 
 ## Conclusion
