@@ -1,7 +1,8 @@
 # Colonic-Crypt-Segmentation
 
 Trained a segmentation model UNet using Pytorch to segment the colonic crypts in the tissue images. 
-Dataset source: https://drive.google.com/drive/folders/1m-rYzhWbabhVBEMbClq6fRoOpLUgpFnx?usp=sharing
+
+###### Dataset source: https://drive.google.com/drive/folders/1m-rYzhWbabhVBEMbClq6fRoOpLUgpFnx?usp=sharing
 
 ## Data Preprocessing
 
