@@ -20,7 +20,9 @@ The position and shape of a crypt is represented by a set of pixel coordinates t
 </table>
 
 
-Due to large size (4536 x 4704 x 3) of image to save computational power decided to generate patch sizes of 512 x 512. Saved the path of each patch, path to its mask and annoted class (1 crypt 0 background) in a train_data.csv file for easy access.
+Due to large size (4536 x 4704 x 3) of image to save computational power decided to generate patch sizes of 512 x 512. Saved the path of each patch, path to its mask and annoted class (1 crypt 0 background) in a train_data.csv file for easy access. 
+
+This process is been carried out in Datapreprocessing.ipynb
 
 
 ```bash
@@ -63,6 +65,7 @@ import albumentations as A
 ```
 
 ```bash
+# Following are the parameters it was set for traing UNET model
 BATCH_SIZE = 32
 INPUT_CHANNELS = 3
 INPUT_SHAPE = (512,512,3)
@@ -73,7 +76,9 @@ LOSS = Cross Entropy Loss
 DICE LOSS
 DICE SCORE
 ```
+
 ```bash
+# This was used to carried out data augmentation
 train_transform =  A.Compose([
             A.HorizontalFlip(),
             A.VerticalFlip(),
@@ -96,6 +101,8 @@ train_transform =  A.Compose([
 ```
 
 ## Inference
+
+
 
 ```bash
 def rle_encode(img):
@@ -123,7 +130,6 @@ def dice_score(y_pred, y_true, eps=1e-8):
     dice = (2.0 * intersection + eps) / (union + eps)
     return dice
 ```
-*
 
 ```bash
 # Dice score for test set
