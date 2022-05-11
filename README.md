@@ -242,7 +242,7 @@ From Example 1, I think the model failed to predicted the crypt with no dark bou
     
 <img src="Images/newplot2.png" width="520px">
 
-  
+ In curve we can see that training loss is decreasing or stabilizes with every epoch and validation loss is either stabilizing or is decreasing after 17 th epoch. Both are stabilizing hence it can be called reasonaly fitting model. We have achieved accuracy of 79.51% on test set. 
     
 <img src="Images/newplot5.png" width="520px">
     
