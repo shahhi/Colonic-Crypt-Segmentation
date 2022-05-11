@@ -158,8 +158,9 @@ Annoted class:
 
 ### PCA
 
+In this we can see the distribution of train and test data.
 <p align="center">
-     In this we can see the distribution of train and test data.
+     
 <img src="Images/PCA.jpg" width="520px">
    
 </p>
@@ -172,8 +173,9 @@ Annoted class:
 
 ### T-SNE
 
+ In this we can see the distribution of train and test data.
 <p align="center">
-     In this we can see the distribution of train and test data.
+    
 <img src="Images/TSNE.jpg" width="520px">
    
 </p>
@@ -186,8 +188,9 @@ Annoted class:
     
 ### UMAP
 
+In this we can see the distribution of train and test data.
 <p align="center">
-     In this we can see the distribution of train and test data.
+     
 <img src="Images/UMAP.jpg" width="520px">
    
 </p>
@@ -200,8 +203,9 @@ Annoted class:
 
 ### MDS
 
+ In this we can see the distribution of train and test data.
 <p align="center">
-     In this we can see the distribution of train and test data.
+    
 <img src="Images/MDS.jpg" width="520px">
    
 </p>
