@@ -160,6 +160,7 @@ Annoted class:
 
 <p align="center">
 <img src="Images/PCA.jpg" width="520px">
+    In this we can see the distribution of train and test data.
 </p>
 <table>
 <tr>
@@ -172,6 +173,7 @@ Annoted class:
 
 <p align="center">
 <img src="Images/TSNE.jpg" width="520px">
+    In this we can see the distribution of train and test data.
 </p>
 <table>
 <tr>
@@ -184,6 +186,7 @@ Annoted class:
 
 <p align="center">
 <img src="Images/UMAP.jpg" width="520px">
+    In this we can see the distribution of train and test data.
 </p>
 <table>
 <tr>
@@ -196,6 +199,7 @@ Annoted class:
 
 <p align="center">
 <img src="Images/MDS.jpg" width="520px">
+    In this we can see the distribution of train and test data.
 </p>
 <table>
 <tr>
