@@ -212,10 +212,17 @@ Following are a few out put overlays from the above used model. On the left side
 
 <p align="center">
     
+      
+  Example 1
+    
 <img src="Images/Failedcase1.png" width="520px">
 
+    Example 2  
+    
 <img src="Images/Failedcase2.png" width="520px">
  
+    Example 3
+    
 <img src="Images/Failedcase3.png" width="520px">
 
 
@@ -227,16 +234,15 @@ From Example 1, I think the model failed to predicted the crypt with no dark bou
 ## Conclusion
 
 <p align="center">
-    
-  Example 1
+  
     
 <img src="Images/newplot.png" width="520px">
 
-  Example 2  
+  
     
 <img src="Images/newplot2.png" width="520px">
 
-  Example 3
+  
     
 <img src="Images/newplot5.png" width="520px">
     
