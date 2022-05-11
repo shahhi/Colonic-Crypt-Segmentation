@@ -1,4 +1,4 @@
-# Colonic-Crypt-Segmentation
+# Colonic-Crypt-Segmentation (Task 2)
 
 Trained a segmentation model UNet using Pytorch to segment the colonic crypts in the tissue images. 
 
