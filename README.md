@@ -153,17 +153,19 @@ Average	0.8245777672260557
 ## Data Visualization
 
 Annoted class:
-1 - crypt 
-0 - background
+1 - patch containing atleat one crypt 
+0 - patch with only background
 
 ### PCA
 
-In this we can see the distribution of train and test data.
+In this we can see the distribution of train and test data. Both are fairly overlapping.
 <p align="center">
      
 <img src="Images/PCA.jpg" width="520px">
    
 </p>
+
+
 <table>
 <tr>
     <td><img src="Images/TrainsetPCA.jpg" width="520px"></td>
@@ -173,7 +175,7 @@ In this we can see the distribution of train and test data.
 
 ### T-SNE
 
- In this we can see the distribution of train and test data.
+ In this we can see the distribution of train and test data. Both are completely overlapping. 
 <p align="center">
     
 <img src="Images/TSNE.jpg" width="520px">
@@ -188,7 +190,7 @@ In this we can see the distribution of train and test data.
     
 ### UMAP
 
-In this we can see the distribution of train and test data.
+In this we can see the distribution of train and test data. Both are fairly overlapping.
 <p align="center">
      
 <img src="Images/UMAP.jpg" width="520px">
@@ -203,7 +205,7 @@ In this we can see the distribution of train and test data.
 
 ### MDS
 
- In this we can see the distribution of train and test data.
+ In this we can see the distribution of train and test data. Both are fairly overlapping.
 <p align="center">
     
 <img src="Images/MDS.jpg" width="520px">
